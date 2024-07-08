@@ -2,3 +2,4 @@ postgres-data
 src/NWS/tests
 src/NWS/vendor
 src/NWS/error.log
+src/NWS/public/error.log
