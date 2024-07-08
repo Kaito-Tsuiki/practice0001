@@ -1,0 +1,44 @@
+.page-width{
+    width: 900px;
+}
+
+.textbox-label{
+    width:120px;
+}
+
+.radiobutton-content-width{
+    width: 160px;
+}
+
+.checkbox-interval{
+    margin:2px 2px 0 0;
+}
+
+.outline {
+    position: relative;
+    padding: 25px 15px 20px 15px;
+    margin: 20px auto 10px auto;
+    border: 1px solid gainsboro;
+    border-Radius: 5px;
+    width: 600px;
+}
+
+.outline .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-Size: 16px;
+    color: rgb(130, 130, 130);
+    padding: 0 15px;
+    margin: 0;
+    background-Color: white;
+    transform: translateY(-50%) translateX(15px);
+}
+
+.disable-text {
+    color:rgb(179, 179, 179)!important;
+}
+.disable-background {
+    background:rgb(250, 250, 250)!important;
+}

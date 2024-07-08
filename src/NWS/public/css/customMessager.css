@@ -1,0 +1,33 @@
+/* ※EasyUiの要素を改造 */
+/* EasyUiのmessagerを使う場合はこのスタイルシートをインポートしてください */
+
+.messager-icon{
+    padding-right: 32px;
+}
+
+.messager-body{
+    display: flex;
+    padding: 20px 10px 20px 10px !important;
+}
+
+.messager-p-bar {
+    display: none;
+}
+
+.messager-progress {          
+    padding-top: 30px;
+}
+
+.messager-p-msg{
+    color: red;
+    font-size: medium;
+    padding-bottom: 10px;
+}
+
+.loading-span{
+    padding-left: 45px;
+}
+
+.loading-span2{
+    padding-left: 30px;
+}

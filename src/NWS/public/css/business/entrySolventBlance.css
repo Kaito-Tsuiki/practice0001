@@ -1,0 +1,139 @@
+.page-width{
+    width: 1200px;
+}
+
+.content-interval{
+    margin-bottom:10px;
+}
+
+.textbox-label{
+    font-size: small !important;
+    width:140px;
+}
+
+.dialog-button-width{
+    width: 100px;
+}
+
+.status-box {
+    position: relative;
+    padding: 0px 40px;
+    margin:20px 0 20px 5px;
+    margin-right:auto;
+    width: 140px ;
+    height: 70px ;
+    border: 1px solid gainsboro;
+    border-Radius: 5px;
+}
+
+.status-box .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-Size: 16px;
+    font-weight: 600;
+    color: rgb(130, 130, 130);
+    padding: 0 15px;
+    margin: 0;
+    background-Color: white;
+    transform: translateY(-50%) translateX(15px);
+}
+
+.box {
+    position: relative; 
+    padding: 25px 15px 15px 15px; /*調整*/
+    margin: 0 0 20px 5px; /*調整*/
+    border: 1px solid gainsboro;
+    border-Radius: 5px;
+    width:auto !important; /*調整*/
+}
+
+.box .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-Size: 16px;
+    color: rgb(130, 130, 130);
+    padding: 0 15px;
+    margin: 0;
+    background-Color: white;
+    transform: translateY(-50%) translateX(15px);
+}
+
+.date-box {
+    position: relative; 
+    padding: 25px 15px 15px 15px; /*調整*/
+    margin: 0 0 20px 5px; /*調整*/
+    border: 1px solid gainsboro;
+    border-Radius: 5px;
+    width: 250px !important; /*調整*/
+}
+
+.date-box .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-Size: 16px;
+    font-weight: 600;
+    color: rgb(130, 130, 130);
+    padding: 0 15px;
+    margin: 0;
+    background-Color: white;
+    transform: translateY(-50%) translateX(15px);
+}
+
+.solvent-menu {
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+
+.outline {
+    position: relative;
+    padding: 25px 15px 0 15px;
+    margin: 20px 0 0 5px;
+    border: 1px solid gainsboro;
+    border-Radius: 5px;
+    width: 400px;
+}
+
+.outline .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-Size: 16px;
+    color: rgb(130, 130, 130);
+    padding: 0 15px;
+    margin: 0;
+    background-Color: white;
+    transform: translateY(-50%) translateX(15px);
+}
+
+.inner-line {
+    position: relative;
+    margin-top: 30px;
+    padding: 25px 0 15px 0;
+    width: 100%;
+    border-top: 1px solid gainsboro;
+}
+
+.inner-line .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-Size: 16px;
+    color: rgb(130, 130, 130);
+    padding: 0 15px;
+    margin: 0 auto;
+    background-Color: white;
+    transform: translateY(-50%) translateX(15px);
+}
+
+.nonAdsobed-label {
+    color: red;
+}

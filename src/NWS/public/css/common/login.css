@@ -1,0 +1,80 @@
+.flex {
+    display: flex;
+}
+
+.textbox-label-before{
+    padding:0 !important;
+    margin-left:20px !important;
+}
+.textbox{
+    margin-left: 10px!important;
+    width: 200px!important;
+}
+
+#inputForm{
+    margin-top: 20px;
+}
+
+.center-content-hori{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.button-width{
+    width: 80px !important;
+}
+
+.login-button{
+    width: 100px;
+    padding: 2px;
+    font-size: small;
+    border-radius: 3px;
+    opacity: 1;
+    transition: 0.2s;
+    background: rgb(255, 255, 255);
+    border-color: rgb(227, 238, 255);
+}
+
+/* 上記ボタンのマウスオーバー・フォーカス時の要素 */
+.login-button:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.2s;
+    background: rgb(227, 238, 255);
+    border-color: rgb(227, 238, 255);
+}
+.login-button:focus {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.2s;
+    background: rgb(227, 238, 255);
+    border-color: rgb(227, 238, 255);
+}
+
+.clear-button{
+    width: 100px;
+    margin-top: 5px;
+    padding: 2px;
+    font-size: small;
+    border-radius: 3px;
+    opacity: 1;
+    transition: 0.2s;
+    background: rgb(255, 255, 255);
+    border-color: rgb(227, 238, 255);
+}
+
+/* 上記ボタンのマウスオーバー・フォーカス時の要素 */
+.clear-button:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.2s;
+    background: rgb(255, 227, 227);
+    border-color: rgb(255, 227, 227);
+}
+.clear-button:focus {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.2s;
+    background: rgb(255, 227, 227);
+    border-color: rgb(255, 227, 227);
+}

@@ -1,0 +1,146 @@
+/* おおまかなボタン用のカラー設定 */
+
+.violet{
+    background: rgb(219, 143, 162);
+    border-color: rgb(219, 143, 162);
+}
+.violet:hover {
+    background: rgb(218, 183, 192);
+    border-color: rgb(218, 183, 192);
+}
+
+.blue{
+    background: rgb(108, 137, 231);
+    border-color: rgb(108, 137, 231);
+}
+.blue:hover {
+    background: rgb(189, 200, 236);
+    border-color: rgb(189, 200, 236);
+}
+
+.orange{
+    background: rgb(255, 200, 150);
+    border-color: rgb(255, 200, 150);
+}
+.orange:hover {
+    background: rgb(255, 229, 204);
+    border-color: rgb(255, 229, 204);
+}
+
+.pink{
+    background: rgb(255, 203, 237);
+    border-color: rgb(255, 203, 237);
+}
+.pink:hover {
+    background: rgb(255, 232, 247);
+    border-color: rgb(255, 232, 247);
+}
+
+.green{
+    background: rgb(136, 164, 129);
+    border-color: rgb(136, 164, 129);
+}
+.green:hover {
+    background: rgb(193, 200, 192);
+    border-color: rgb(193, 200, 192);
+}
+
+.navy{
+    background: rgb(129, 122, 165);
+    border-color: rgb(129, 122, 165);
+}
+.navy:hover {
+    background: rgb(180, 174, 208);
+    border-color: rgb(180, 174, 208);
+}
+
+.sky{
+    background: rgb(161, 224, 224);
+    border-color: rgb(161, 224, 224);
+}
+.sky:hover {
+    background: rgb(198, 244, 244);
+    border-color: rgb(198, 244, 244);
+}
+
+.pistachio{
+    background: rgb(188, 200, 112);
+    border-color: rgb(188, 200, 112);
+}
+.pistachio:hover {
+    background: rgb(222, 232, 159);
+    border-color: rgb(222, 232, 159);
+}
+
+.red{
+    background: rgb(247, 64, 64);
+    border-color: rgb(247, 64, 64);
+}
+.red:hover {
+    background: rgb(248, 141, 141);
+    border-color: rgb(248, 141, 141);
+}
+
+.black{
+    color: white;
+    background: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+.black:hover{
+    background: rgb(65, 65, 65);
+    border-color: rgb(65, 65, 65);
+}
+/*入力ボタン*/
+.dialog-enter-button{
+    border-radius: 3px;
+    opacity: 1;
+    transition: 0.2s;
+    background: rgb(233, 228, 255);
+    border-color: rgb(180, 176, 195);
+}
+.dialog-enter-button:hover{
+    background: rgb(208, 198, 255);
+    border-color: rgb(180, 176, 195);
+    cursor: pointer;
+}
+.dialog-enter-button:focus{
+    background: rgb(208, 198, 255);
+    border-color: rgb(180, 176, 195);
+    cursor: pointer;
+}
+/*削除ボタン*/
+.dialog-delete-button{
+    border-radius: 3px;
+    opacity: 1;
+    transition: 0.2s;
+    background: rgb(255, 227, 227);
+    border-color: rgb(195, 176, 176);
+}
+.dialog-delete-button:hover{
+    background: rgb(254, 198, 198);
+    border-color: rgb(195, 176, 176);
+    cursor: pointer;
+}
+.dialog-delete-button:focus{
+    background: rgb(254, 198, 198);
+    border-color: rgb(195, 176, 176);
+    cursor: pointer;
+}
+/*取消ボタン*/
+.dialog-cancel-button{
+    border-radius: 3px;
+    opacity: 1;
+    transition: 0.2s;
+    background: rgb(241, 241, 241);
+    border-color: rgb(171, 171, 171);
+}
+.dialog-cancel-button:hover{
+    background: rgb(197, 197, 197);
+    border-color: rgb(171, 171, 171);
+    cursor: pointer;
+}
+.dialog-cancel-button:focus{
+    background: rgb(197, 197, 197);
+    border-color: rgb(171, 171, 171);
+    cursor: pointer;
+}

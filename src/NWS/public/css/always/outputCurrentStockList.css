@@ -1,0 +1,44 @@
+.page-width{
+    width: 1200px;
+}
+
+.input-interval{
+    margin-top: 10px !important;
+}
+
+.date-content-interval{
+    margin: -5px 0 10px 0;
+}
+
+.textbox-label{
+    font-size: small !important;
+    width:100px;
+}
+
+.outline {
+    position: relative;
+    padding: 25px 15px 20px 15px;
+    margin: 20px auto 10px auto;
+    border: 1px solid gainsboro;
+    border-Radius: 5px;
+
+}
+
+.outline .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-Size: 16px;
+    color: rgb(130, 130, 130);
+    padding: 0 15px;
+    margin: 0;
+    background-Color: white;
+    transform: translateY(-50%) translateX(15px);
+}
+
+.outline .label {
+    font-Size: 14px;
+    margin: 5px 10px 0 10px;
+    color: rgb(130, 130, 130);
+}

@@ -1,0 +1,75 @@
+.pageWidth{
+    width: 1200px;
+}
+
+.input-interval{
+    margin-top: 10px !important;
+}
+
+.content-interval{
+    margin-bottom:10px !important;
+}
+
+.form-interval{
+    margin-top:30px;
+}
+
+.textbox-label{
+    font-size: small !important;
+    width:120px;
+}
+
+.outline {
+    position: relative;
+    padding: 20px 15px 10px 15px;
+    margin: 0 0 20px 5px;
+    border: 1px solid gainsboro;
+    border-Radius: 5px;
+    width: auto;
+}
+
+.outline .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-Size: 16px;
+    color: rgb(130, 130, 130);
+    padding: 0 15px;
+    margin: 0;
+    background-Color: white;
+    transform: translateY(-50%) translateX(15px);
+}
+
+.status-box {
+    position: relative;
+    padding: 0px 40px;
+    margin-top:0px;
+    margin-right:auto;
+    width: 140px ;
+    height: 70px ;
+    border: 1px solid gainsboro;
+    border-Radius: 5px;
+}
+
+.status-box .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-Size: 16px;
+    color: rgb(130, 130, 130);
+    padding: 0 15px;
+    margin: 0;
+    background-Color: white;
+    transform: translateY(-50%) translateX(15px);
+}
+
+.total-input-style{
+    margin-top:15px;
+    width: 200px;
+}
+
+.dialog-button-width{
+    width: 100px;
+}

@@ -1,0 +1,133 @@
+.pageWidth{
+    width: 710px;
+}
+
+/* 外枠のスタイル(内) */
+.inline {
+    position: relative;
+    padding: 25px 15px;
+    margin: 10px 0 28px 5px;
+    border: 1px solid gainsboro;
+    border-Radius: 5px;
+    width: 300px;
+}
+
+.inline-interval{
+    margin-left: 20px;
+}
+
+/* 外枠のスタイル(外) */
+.outline {
+    width: 100%;
+    min-width: 710px;
+    position: relative;
+    padding: 25px 15px;
+    margin: 60px 0;
+    border: 1px solid gainsboro;
+    border-Radius: 5px;
+    box-sizing: border-box
+}
+
+.outline .menu-tab {
+    position: absolute;
+    top: -20px;
+    right: 5px;
+
+    color: rgb(130, 130, 130);
+    padding: 0 5px;
+    margin: 0;
+    background-Color: white;
+    transform: translateY(-50%) translateX(-10px);
+}
+
+.outline .bottom-button {
+    position: absolute;
+    bottom: -50px;
+    right: 0px;
+
+    padding: 0 10px;
+    margin: 0;
+    background-Color: white;
+    transform: translateY(-50%) translateX(-10px);
+}
+
+/* 該当メニューが表示中の場合のタブのスタイル */
+.active-button{
+    color: black;
+    background: white;
+    border-top: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+    width: 150px;
+    margin: 0;
+    padding: 8px 15px;
+    border-radius: 5px 5px 0 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    opacity: 1;
+    transition: 0.2s;
+
+    pointer-events: none;
+}
+
+/* 該当メニューが非表示のタブのスタイル(グレーアウト/ホバー有) */
+.passive-button{
+    color: black;
+    background: rgb(190, 190, 190);
+    border-top: 1px solid rgb(190, 190, 190);
+    border-right: 1px solid rgb(190, 190, 190);
+    border-left: 1px solid rgb(190, 190, 190);
+    width: 150px;
+    margin: 0;
+    padding: 8px 15px;
+    text-decoration: none;
+    box-sizing: border-box;
+
+    border-radius: 5px 5px 0 0;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.passive-button:hover {
+    color: blue;
+    background: rgb(255, 200, 150);
+    border-top: 1px solid rgb(255, 200, 150);
+    border-right: 1px solid rgb(255, 200, 150);
+    border-left: 1px solid rgb(255, 200, 150);
+    box-shadow: 2px -3px 5px rgb(0, 0, 0, 0.15),
+                2px -3px 5px rgb(0, 0, 0, 0.15),
+                -2px -2px 5px rgb(0, 0, 0, 0.15),
+                -2px -2px 5px rgb(0, 0, 0, 0.15);  
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.button-interval{
+    margin: 5px 5px 10px 5px
+}
+
+/* 各メニューへの遷移ボタンのスタイル */
+.menu-button{
+    width: 260px;
+    font-size: medium;
+    padding: 8px 15px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.1),
+                2px -2px 5px rgb(0, 0, 0, 0.1),
+                -2px 2px 5px rgb(0, 0, 0, 0.1),
+                -2px -2px 5px rgb(0, 0, 0, 0.1);    
+
+    border-radius: 3px;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.menu-button:hover {
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.15),
+                2px -2px 5px rgb(0, 0, 0, 0.15),
+                -2px 2px 5px rgb(0, 0, 0, 0.15),
+                -2px -2px 5px rgb(0, 0, 0, 0.15);  
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.2s;
+}

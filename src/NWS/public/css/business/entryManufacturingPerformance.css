@@ -1,0 +1,141 @@
+.page-width{
+    width: 1200px;
+}
+
+.content-width{
+    width: 100%;
+}
+
+.input-interval{
+    margin-top: 10px !important;
+}
+
+.textbox-label{
+    font-size: small !important;
+    width:100px;
+}
+
+.numberbox .textbox-text {
+    text-align: right;
+}
+
+.status-box {
+    position: relative;
+    padding: 0px 40px;
+    margin-top:0px;
+    margin-right:auto;
+    width: 140px ;
+    height: 70px ;
+    border: 1px solid gainsboro;
+    border-Radius: 5px;
+}
+
+.status-box .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-Size: 16px;
+    color: rgb(130, 130, 130);
+    padding: 0 15px;
+    margin: 0;
+    background-Color: white;
+    transform: translateY(-50%) translateX(15px);
+}
+
+.outline {
+    position: relative;
+    padding: 25px 15px 0 15px;
+    margin: 0 0 0 5px;
+    border: 1px solid gainsboro;
+    border-Radius: 5px;
+    width: 300px;
+}
+
+.outline .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-Size: 16px;
+    color: rgb(130, 130, 130);
+    padding: 0 15px;
+    margin: 0;
+    background-Color: white;
+    transform: translateY(-50%) translateX(15px);
+}
+
+.grid-layout-style{
+    width: 100% !important;
+    margin-top: 20px !important; 
+    box-sizing: border-box; 
+    padding-bottom:0px !important;
+}
+
+.total-layout-style{
+    margin-top:20px!important;
+    margin-bottom:20px;
+    margin-right:auto;
+    margin-left:auto;
+    width: 200px;
+}
+
+.dialog-input-width{
+    width: 200px !important;
+}
+
+.dialog-button-width{
+    width: 100px;
+}
+
+/* 分割ボタンのスタイル */
+.in-cell-button{
+    font-size: smaller !important;
+    background-color: gainsboro;
+    width: 50px;
+    padding: 5px 5px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.1),
+                2px -2px 5px rgb(0, 0, 0, 0.1),
+                -2px 2px 5px rgb(0, 0, 0, 0.1),
+                -2px -2px 5px rgb(0, 0, 0, 0.1);    
+    
+    border-radius: 2px;
+    border: groove;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.in-cell-button:hover {
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.15),
+                2px -2px 5px rgb(0, 0, 0, 0.15),
+                -2px 2px 5px rgb(0, 0, 0, 0.15),
+                -2px -2px 5px rgb(0, 0, 0, 0.15);  
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.usedProduct .combo{
+    min-width: 185px
+}
+
+.no-header-style{
+    width: 40px!important;
+    margin-right: 6px;
+}
+
+.no-style{
+    width: 140px!important;
+    margin-right: 6px;
+}
+
+.dialog-no-header-style{
+    width: 50px!important;
+    margin-right: 5px;
+}
+
+.dialog-no-style{
+    width: 140px!important;
+    margin-right: 5px;
+}
