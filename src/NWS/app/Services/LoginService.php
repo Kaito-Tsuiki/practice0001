@@ -21,7 +21,7 @@ class LoginService{
             $datetime = $request->input()['datetime'];
             
             $result = MUserModel::loginFunc($id, $datetime);
-            error_log(print_r($result, true)."\n",3,"./error.log");
+            // error_log(print_r($result, true)."\n",3,"./error.log");
 
             return $result;
         } catch (Exception $e) {

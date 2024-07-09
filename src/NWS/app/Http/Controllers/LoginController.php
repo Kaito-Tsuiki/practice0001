@@ -25,7 +25,6 @@ class LoginController extends BaseController
         try{
             return json_encode(LoginService::loginFunc($request));
         } catch (Exception $e) {
-            error_log("catch\n",3,"./error.log");
             self::outputErrorLog(print_r($e->getMessage(), true));
             throw $e;
         }   
